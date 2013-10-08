@@ -10,6 +10,7 @@
 
 include_recipe "python"
 
+package 'python-imaging'
 package 'unzip'
 
 ark "google_appengine" do
