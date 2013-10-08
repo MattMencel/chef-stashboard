@@ -18,8 +18,7 @@ ark "google_appengine" do
 	action :put
 end
 
-ark "stashboard" do
-	url "http://github.com/twilio/stashboard/tarball/master"
-	path "/opt"
-	action :put
+git "/opt/stashboard" do
+	repository "https://github.com/twilio/stashboard.git"
+	action :sync
 end
