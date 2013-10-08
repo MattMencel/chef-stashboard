@@ -14,6 +14,12 @@ package 'unzip'
 
 ark "google_appengine" do
 	url "http://googleappengine.googlecode.com/files/google_appengine_1.8.5.zip"
-	prefix_root "/opt"
-	action :install
+	path "/opt"
+	action :put
+end
+
+ark "stashboard" do
+	url "http://github.com/twilio/stashboard/tarball/master"
+	path "/opt"
+	action :put
 end
