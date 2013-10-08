@@ -11,6 +11,6 @@ include_recipe "python"
 
 ark "google_appengine" do
 	url "http://googleappengine.googlecode.com/files/google_appengine_1.8.5.zip"
-	path "/opt"
+	prefix_root "/opt"
 	action :install
 end
