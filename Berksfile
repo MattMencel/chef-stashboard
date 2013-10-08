@@ -1,4 +1,4 @@
 site :opscode
 
 metadata
-cookbook 'python'
+cookbook 'python', '>= 1.4.0'
