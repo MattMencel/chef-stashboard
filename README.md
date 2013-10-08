@@ -1,4 +1,4 @@
-# chef-stashboard cookbook
+# stashboard cookbook
 
 # Requirements
 
